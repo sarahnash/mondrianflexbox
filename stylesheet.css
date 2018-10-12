@@ -3,14 +3,10 @@
     flex-direction: row;
     width: 100%;
     height: 100vh;
+    border-color: black;
+    border-style: solid;
 }
 
-.box1 {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100vh;
-}
 
 .box11 {
     flex: 2;
@@ -19,22 +15,77 @@
 
 .box12 {
     flex: 1;
-    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    border-left-color: black;
+    border-left-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
 }
 
-.box2 {
+.box121 {
+    flex: 1;
+    background-color: yellow;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}                         
+
+.box122 {
+    flex: 2;
+    background-color: yellow;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+.box247 {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 100vh;
+    flex: 2;
+}
+
+.box123 {
+    flex: 1;
+    border-right-color: black;
+    border-right-style: solid;
+}
+
+.box124 {
+    flex: 1;
+}
+
+.box125 {
+    flex: 1;
+    border-top-color: black;
+    border-top-style: solid;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+.box126 {
+    flex: 1;
+    background-color: blue;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+.box127 {
+    flex: 1;
+    background-color: blue;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+.box128 {
+    flex: 2;
+    background-color: red;
 }
 
 .box21 {
     flex: 1;
     display: flex;
     flex-direction: column;
-    border-color: black;
-    border-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
 }
 
 .box211 {
@@ -97,9 +148,42 @@
 
 .box218 {
     flex: 1;
+    background-color: black;
 }
 
 .box22 {
     flex: 2;
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+}
+
+.box22A {
+    flex: 5;
+    background-color:green;
+}
+
+.box22B {
+    flex: 4;
+    background-color: blue;
+}
+
+.box22C {
+    flex: 1;
+    background-color: pink;
+}
+
+.box22D {
+    flex: 1;
+    background-color: brown;
+}
+
+.box22E {
+    flex: 4;
+    background-color: turquoise;
+}
+
+.box22F {
+    flex:8;
     background-color: yellow;
 }
