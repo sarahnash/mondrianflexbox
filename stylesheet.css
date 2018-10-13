@@ -155,35 +155,111 @@
     flex: 2;
     display: flex;
     flex-direction: column;
-    background-color: yellow;
+    flex-wrap: wrap;
 }
 
 .box22A {
     flex: 5;
-    background-color:green;
+    display: flex;
+    flex-direction: column;
+    /* align-self: flex-start;
+    order: 1; */
 }
+
+.box443 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.box221 {
+    flex: .5;
+    background-color: yellow;
+    border-right-color: black;
+    border-right-style: solid;
+}
+
+.box222 {
+    flex: .5;
+    border-right-color: black;
+    border-right-style: solid;
+}
+
+.box224 {
+    flex: 1;
+    background-color: yellow;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-top-color: black;
+    border-top-style: solid;
+}
+
+.box225 {
+    flex: 1;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+.box226 {
+    flex: 1;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+.box227 {
+    flex: 1;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
 
 .box22B {
     flex: 4;
     background-color: blue;
+    justify-content: left;
+    align-content: space-between;
+    /* align-self: flex-start;
+    order: 1; */
 }
 
 .box22C {
     flex: 1;
-    background-color: pink;
+    justify-content: left;
+    align-content: space-between;
+    display: flex;
+    flex-direction: row;
+    /* align-self: flex-start;
+    order: 1; */
+}
+
+.box234 {
+    flex: 2;
+    border-right-color: black;
+    border-right-style: solid;
+}
+
+.box235 {
+    flex: 1;
 }
 
 .box22D {
     flex: 1;
     background-color: brown;
+    /* align-self: flex-end;
+    order: 1; */
 }
 
 .box22E {
     flex: 4;
     background-color: turquoise;
+    /* align-self: flex-end;
+    order: 1; */
+   
 }
 
 .box22F {
     flex:8;
     background-color: yellow;
+    /* align-self: flex-end;
+    order: 1; */
 }
